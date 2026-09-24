@@ -25,7 +25,7 @@ def issometingblock(list1, rk, ck, r, c):
 
         if rk == r and ck == c:
             break
-        if list1[rk][ck] != ".":
+        if list1[rk][ck] == 'Q' or list1[rk][ck] == 'R' or list1[rk][ck] == 'B' or list1[rk][ck] == 'P':
             return True
     return False
 
